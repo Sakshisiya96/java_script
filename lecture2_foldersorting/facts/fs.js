@@ -6,3 +6,4 @@ const fs =require("fs");
 let f1kaData = fs.readFileSync("./f1.txt","utf-8");
 console.log(f1kaData);
 fs.writeFileSync("./index.txt","hello world!..");
+fs.writeFileSync("../activity/activity.js", "hey! i am sakshi");
